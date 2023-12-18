@@ -61,7 +61,7 @@
 
 <H4>The illustration depicts the program interface, where users have the capability to upload a data folder. Upon filling in the necessary fields, they can produce a spectrum graph covering the entire measurement range or generate a graph illustrating absorbance versus concentration at a designated wavelength. Furthermore, the program provides the option to consolidate data from the device into a singular Excel file.</H4>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -74,7 +74,7 @@
 [![Scipy][Scipy]][Scipy-url]
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -109,7 +109,7 @@ If for some reason you don't want to use .exe version, here's the instructions w
    ```
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -222,7 +222,7 @@ In the color field, you can enter the color value in English in lowercase letter
 
 8. If you want to export figure click <b> Open Image Directory </b>button and find the plot.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 <H3>Menu Bar</H3>
 
@@ -238,7 +238,7 @@ If you have a suggestion that would make this program better, please fork the re
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -249,7 +249,9 @@ If you have a suggestion that would make this program better, please fork the re
 
 Project Link: [https://github.com/agatabiesiekierska/UV-VIS-spectra](https://github.com/agatabiesiekierska/UV-VIS-spectra)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Gmail: ag.biesiekierska@gmail.com
+
+<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
