@@ -1,30 +1,30 @@
 
 <a name="readme-top"></a>
 
-![Contributors][contributors-shield]
-![LinkedIn][linkedin-shield]
+[![Contributors][contributors-shield]][contributors-url]
+[![LinkedIn][LinkedIn]][LinkedIn-url]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/agatabiesiekierska/UV-VIS spectra">
+  <a href="https://github.com/agatabiesiekierska/UV-VIS-spectra">
     <img src="icon.png"" alt="Logo" width="300" height="300">
   </a>
 
 <h3 align="center">UV-VIS Spectra</h3>
 
   <p align="center">
-    This project is dedicated to providing a suite of basic statistical tests (Q-test and t-Student), empowering users to cleansing dataset by identification and rejection of outliers from their data.
+    This project is dedicated to users of the HACH DR6000 spectrophotometer. It allows to create multiple spectra and linear regression for specific wavelength based on data downloaded from the device.
     <br />
-    <a href="https://github.com/agatabiesiekierska/UV-VIS spectra"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/agatabiesiekierska/UV-VIS-spectra"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     ·
-    <a href="https://github.com/agatabiesiekierska/UV-VIS spectra/issues">Report Bug</a>
+    <a href="https://github.com/agatabiesiekierska/UV-VIS-spectra/issues">Report Bug</a>
     ·
-    <a href="https://github.com/agatabiesiekierska/UV-VIS spectra">Request Feature</a>
+    <a href="https://github.com/agatabiesiekierska/UV-VIS-spectra">Request Feature</a>
   </p>
 </div>
 
@@ -57,9 +57,9 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-[![Program Screenshot][product-screenshot]](https://github.com/agatabiesiekierska/Statistical_tests)
+[![Main_Window][Main_Window]](https://github.com/agatabiesiekierska/UV-VIS-spectra)
 
-<H2>Here's a simple program that performs a statistical test (Q-Dixon or t-Student) based on data in given .txt file</H2>
+<H4>The illustration depicts the program interface, where users have the capability to upload a data folder. Upon filling in the necessary fields, they can produce a spectrum graph covering the entire measurement range or generate a graph illustrating absorbance versus concentration at a designated wavelength. Furthermore, the program provides the option to consolidate data from the device into a singular Excel file.</H4>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -67,8 +67,12 @@
 
 ## Built With
 
-* [![Python][Python]][Python-url]
-* [![PyQt5][PyQt5]][PyQt5-url]
+[![Python][Python]][Python-url]
+[![Tkinter][Tkinter]][Tkinter-url]
+[![Matplotlib][Matplotlib]][Matplotlib-url]
+[![Pandas][Pandas]][Pandas-url]
+[![Scipy][Scipy]][Scipy-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,6 +82,9 @@
 ## Getting Started
 
 If you want to use this script, follow these instructions:
+
+### Download program
+
 
 ### Prerequisites
 
@@ -147,7 +154,7 @@ In the picture below you can see the example output file in .txt format: <br/><b
 <!-- CONTRIBUTING -->
 ## Contributing
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. 
+If you have a suggestion that would make this program better, please fork the repo and create a pull request. 
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
@@ -162,9 +169,9 @@ If you have a suggestion that would make this better, please fork the repo and c
 <!-- CONTACT -->
 ## Contact
 
-Agata Biesiekierska - [@linkedin_handle](https://linkedin.com/in/agata-biesiekierska-6293a4271/) - ag.biesiekierska@gmail.com
+![Agata Biesiekierska](https://img.shields.io/badge/Agata_Biesiekierska-blue?style=for-the-badge) [![LinkedIn][LinkedIn]][LinkedIn-url] ![Gmail](https://img.shields.io/badge/ag.biesiekierska@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white) 
 
-Project Link: [https://github.com/agatabiesiekierska/Statistical_tests](https://github.com/agatabiesiekierska/Statistical_tests)
+Project Link: [https://github.com/agatabiesiekierska/UV-VIS-spectra](https://github.com/agatabiesiekierska/UV-VIS-spectra)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,23 +182,38 @@ Project Link: [https://github.com/agatabiesiekierska/Statistical_tests](https://
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/agatabiesiekierska/Statistical_tests.svg?style=for-the-badge
-[contributors-url]: https://github.com/agatabiesiekierska/Statistical_tests/graphs/contributors
 
-[issues-shield]: https://img.shields.io/github/issues/agatabiesiekierska/Statistical_tests.svg?style=for-the-badge
-[issues-url]: https://github.com/agatabiesiekierska/Statistical_tests/issues
+[contributors-shield]: https://img.shields.io/github/contributors/agatabiesiekierska/UV-VIS-spectra.svg?style=for-the-badge
+[contributors-url]: https://github.com/agatabiesiekierska/UV-VIS-spectra/graphs/contributors
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/agata-biesiekierska-6293a4271/
+[issues-shield]: https://img.shields.io/github/issues/agatabiesiekierska/UV-VIS-spectra.svg?style=for-the-badge
+[issues-url]: https://github.com/agatabiesiekierska/UV-VIS-spectra/issues
 
-[product-screenshot]: images/app_window.png
+[LinkedIn]: https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white
+[LinkedIn-url]: https://www.linkedin.com/in/agata-biesiekierska-6293a4271
+
+[Main_Window]: Source_code\images_for_readme\main_window.png
 [app_window_2]: images/app_window_2.png
 [results_1]: images/results_1.png
 [results_2]: images/result_2.png
 [output]: images/output.png
 
-[Python]: https://img.shields.io/badge/python-blue?logo=python&logoColor=white
+[Python]: https://img.shields.io/badge/python_3.11-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/downloads
 
-[PyQt5]: https://img.shields.io/badge/PyQt5-red?logo=python&logoColor=white
-[PyQt5-url]: https://pypi.org/project/PyQt5/
+[Tkinter]: https://img.shields.io/badge/Tkinter-red?style=for-the-badge&logo=python&logoColor=white
+[Tkinter-url]: https://docs.python.org/3/library/tkinter.html#module-tkinter
+
+[Pandas]: https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white
+[Pandas-url]: https://pandas.pydata.org
+
+[Matplotlib]: https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black
+[Matplotlib-url]: https://matplotlib.org
+
+[Scipy]: https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white
+[Scipy-url]: https://scipy.org
+
+[Pyinstaller]: https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white
+[Pyinstaller-url]: https://pyinstaller.org/en/stable/
+
+
