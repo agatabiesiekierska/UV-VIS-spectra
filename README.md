@@ -57,7 +57,9 @@
 <!-- ABOUT THE PROJECT -->
 # About The Project
 
-[![Main_Window][Main_Window]](https://github.com/agatabiesiekierska/UV-VIS-spectra)
+<p align="center">
+    <img src=images_for_readme\main_window.png>
+</p>
 
 <H4>The illustration depicts the program interface, where users have the capability to upload a data folder. Upon filling in the necessary fields, they can produce a spectrum graph covering the entire measurement range or generate a graph illustrating absorbance versus concentration at a designated wavelength. Furthermore, the program provides the option to consolidate data from the device into a singular Excel file.</H4>
 
@@ -131,7 +133,9 @@ ScanData_DR6000_2200156_4.xml - highest concentration  (ex. 100 [ppm])
 2. After you hit the <b>Import folder</b> button choose directory with your files.
 3. Path to files will appear in entry field <br/>
 
-[![Import_Folder][Import_Folder]]()
+<p align="center">
+    <img src=images_for_readme\import_folder.png>
+</p>
 
 <H3> Make UV-Vis spectra </H3>
 
@@ -168,7 +172,10 @@ The figure below shows example correct input:
 </p>
 
 If everythig worked successfully, after pressing <b> Draw Spectra </b>button the generated image will appear on the right side of the window: <br/><br/>
-[![Spectra][Spectra]]()
+
+<p align="center">
+    <img src=images_for_readme\uv-vis-spectra.png>
+</p>
 
 But if something went wrong, the programm will display a messagebox with error. <br/><br/>
 
