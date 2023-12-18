@@ -134,7 +134,7 @@ ScanData_DR6000_2200156_4.xml - highest concentration  (ex. 100 [ppm])
 3. Path to files will appear in entry field <br/>
 
 <p align="center">
-    <img src=images_for_readme\import_folder.png>
+    <img src=images_for_readme\Import_folder.png>
 </p>
 
 <H3> Make UV-Vis spectra </H3>
