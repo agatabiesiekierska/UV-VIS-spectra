@@ -74,6 +74,7 @@
 [![Matplotlib][Matplotlib]][Matplotlib-url]
 [![Pandas][Pandas]][Pandas-url]
 [![Scipy][Scipy]][Scipy-url]
+[![PyInstaller][PyInstaller]][PyInstaller-url]
 
 
 <p align="right"><a href="#readme-top">back to top</a></p>
@@ -120,6 +121,14 @@ If for some reason you don't want to use .exe version, here's the instructions w
 
 This paragraph will explain how to use this program and shows all functions. Notice that some fields are marked by star (*) sign. This means that you have to fill it, otherwise an error will appear.
 
+<H3> Dark Mode </H3>
+
+If you want to change theme of the program dialog just click <b>Light/Dark</b> switch button at the left side:
+
+<p align="center">
+    <img src=images_for_readme\Dark_Mode.png>
+</p>
+
 <H3> Import Data </H3>
 
 1. To import your data just choose the directory of your folder with files from spectrophotometer. Model DR6000 use the files with .xml format and only this type of files are acceptable. Also, files have to be named in correct order - this means samples with the lowest concentration have to be named with the lowest number. Only then the outpun will be correct. For example:  <br/>
@@ -161,10 +170,11 @@ As you can see in the picturee below, given concentriations, are automatically l
 
 <H3><b> Draw Spectra </b></H3>
 
-This function is responsible for generating, saving and displaying the graph. The only required value is path to folder with data. However, if user wants to change figure parameters, such as length of the x and y axes or add title, he is able to do so by clicking <b>Change Draw Spectra Options </b> in Options in menu bar. The default parameters are:
+This function is responsible for generating, saving and displaying the graph. The only required value is path to folder with data. However, if user wants to change figure parameters, such as length of the x and y axes or add title, he is able to do so by changing parameters <b>Options for Draw Spectra</b> in box below. The default parameters are:
 
 * For x-axis: from 200 nm to 700 nm
 * For y-axis: from 0 to 3
+* Title: None
 
 The figure below shows example correct input:
 <p align="center">
@@ -207,11 +217,10 @@ Example input: 0,10,20,30,40,50
 
 5. If you want to make linear regression (for example in Calibration Curve), check the box "<i>Make linear regression</i>"
 
-6. If you want to change color of the plot, add title and change plot markers, click <b>Change Draw Linear Plot Options</b> in Options in menu bar. After that the dialog will appear:
+6. If you want to change color of the plot, add title and change plot markers, click <b>Options for Draw Linear Plot</b> in box below. After that change the options:
 
 <p align="center">
     <img src=images_for_readme\linear_plot_options_1.png>
-    <img src=images_for_readme\linear_plot_options_2.png>
 </p>
 The default parameters are:
 
@@ -219,7 +228,6 @@ The default parameters are:
 * For marker: circle
 * For color of the rejected samples: red
 
-In the color field, you can enter the color value in English in lowercase letters (eg. orange, red, blue, yellow, green) or in the Hex format (eg. #FF00FF).
 
 7. If everythig worked successfully, after pressing <b> Draw Linear Plot </b>button the generated image will appear on the right side of the window: <br/><br/>
 
@@ -306,7 +314,7 @@ Gmail: ag.biesiekierska@gmail.com
 [Scipy]: https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white
 [Scipy-url]: https://scipy.org
 
-[Pyinstaller]: https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white
+[Pyinstaller]: https://img.shields.io/badge/Pyinstaller-white.svg?style=for-the-badge&logo=python&logoColor=%black
 [Pyinstaller-url]: https://pyinstaller.org/en/stable/
 
 
