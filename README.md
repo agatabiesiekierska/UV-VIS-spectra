@@ -126,7 +126,7 @@ This paragraph will explain how to use this program and shows all functions. Not
 If you want to change theme of the program dialog just click <b>Light/Dark</b> switch button at the left side:
 
 <p align="center">
-    <img src=images_for_readme\Dark_Mode.png>
+    <img src=images_for_readme\dark_Mode.png>
 </p>
 
 <H3> Import Data </H3>
