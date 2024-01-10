@@ -239,14 +239,6 @@ The default parameters are:
 
 <p align="right"><a href="#readme-top">back to top</a></p>
 
-<H3>Menu Bar</H3>
-There are 3 tabs in menu bar:
-
-* Data - where you can import your directory, open folder with merged files and exit program
-* Options - where you can change options for the plots
-* Help - where you can find information about the program
-
-
 <!-- CONTRIBUTING -->
 ## Contributing
 
